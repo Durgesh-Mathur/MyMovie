@@ -142,8 +142,6 @@
 				665BF1902DB631CA00911965 /* MyMovies */,
 			);
 			name = MyMovies;
-			packageProductDependencies = (
-			);
 			productName = MyMovies;
 			productReference = 665BF18E2DB631CA00911965 /* MyMovies.app */;
 			productType = "com.apple.product-type.application";
@@ -165,8 +163,6 @@
 				665BF1A12DB631CB00911965 /* MyMoviesTests */,
 			);
 			name = MyMoviesTests;
-			packageProductDependencies = (
-			);
 			productName = MyMoviesTests;
 			productReference = 665BF19E2DB631CB00911965 /* MyMoviesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -188,8 +184,6 @@
 				665BF1AB2DB631CB00911965 /* MyMoviesUITests */,
 			);
 			name = MyMoviesUITests;
-			packageProductDependencies = (
-			);
 			productName = MyMoviesUITests;
 			productReference = 665BF1A82DB631CB00911965 /* MyMoviesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -434,6 +428,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

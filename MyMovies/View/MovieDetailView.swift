@@ -26,13 +26,7 @@ struct MovieDetailView: View {
                 } else if let movie = viewModel.movie {
                     VStack(alignment: .leading, spacing: 16) {
                         if let posterURL = movie.posterURL {
-                            AsyncImage(url: posterURL) { image in
-                                image
-                                    .resizable()
-                                    .scaledToFit()
-                            } placeholder: {
-                                ProgressView()
-                            }
+                            AsyncImageView(urlString: posterURL.absoluteString)
                             .frame(maxWidth: .infinity)
                             .cornerRadius(10)
                         }

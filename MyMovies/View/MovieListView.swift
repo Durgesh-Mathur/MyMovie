@@ -47,11 +47,7 @@ struct MovieRowView: View {
     var body: some View {
         HStack(alignment: .top, spacing: 16) {
             if let url = movie.posterURL {
-                AsyncImage(url: url) { image in
-                    image.resizable().aspectRatio(contentMode: .fit)
-                } placeholder: {
-                    ProgressView()
-                }
+                AsyncImageView(urlString: url.absoluteString)
                 .frame(width: 100)
                 .cornerRadius(8)
             }

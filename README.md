@@ -8,5 +8,5 @@
 
 Here is a screenshot of the application:
 
-![Screenshot](/Users/durgeshmathur/Desktop/Repo/MyMovie/screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-04-21 at 17.24.08.png)
+![Screenshot](screenshots/Simulator Screenshot - iPhone 16 Pro - 2025-04-21 at 17.24.08.png)
 
